@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "watch-lib": "ng build okto-components --watch",
     "build-lib": "ng build okto-components",
-    "postinstall": "npm install && ng build okto-components"
+    "postinstall": "npm install --ignore-scripts && ng build okto-components"
   },
   "private": true,
   "dependencies": {
