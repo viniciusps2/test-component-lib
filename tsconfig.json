@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "okto-components": [
+        "dist/okto-components"
+      ],
+      "okto-components/*": [
+        "dist/okto-components/*"
+      ]
+    }
   }
 }
